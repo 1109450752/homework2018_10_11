@@ -1,0 +1,5 @@
+ls = input(">>")
+ls=ls.split(',')
+print(ls)
+ls1=sorted(ls,reverse=True)
+print(ls1)
