@@ -4,6 +4,7 @@ def daluan(s):
     s1=[]
     for i in range(len(s)):
         q=random.choice(s)
+        s.remove(q)
         s1.append(q)
     return s1
 print(daluan(s))
